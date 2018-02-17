@@ -1,0 +1,1 @@
+Some thoughst worth sharing:
