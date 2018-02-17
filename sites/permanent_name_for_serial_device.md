@@ -9,13 +9,7 @@ distinguish which one is which.
 You can find more info about serial device (or any usb device) by running
 ```
 > udevadm info -an /dev/ttyUSB0
-```
-<details>
-<summary>
-Click here to see full ouptut
-</summary>
 
-```
 Udevadm info starts with the device specified by the devpath and then                                                                                                                                              
 walks up the chain of parent devices. It prints for every device                                                                                                                                                   
 found, all possible attributes in the udev rules key format.                                                                                                                                                       
@@ -143,8 +137,6 @@ and the attributes from one single parent device.
     SUBSYSTEMS==""
     DRIVERS==""
 ```
-</details>
-
 
 Your output may loook different, you you are using some USB hub, then it will be included here (full chain is shown).
 
